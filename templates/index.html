@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentBot - Property Management Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome">
+            <h1>Meet RentBot 🏠💬</h1>
+            <h3>Your apartment's complaint handler.</h3>
+            <p>Got a leaky tap? Mysterious noises at 2AM? Rent confusion? I’ve seen worse.</p>
+            <p><b>I am here to help you. Promise.</b></p>
+            <a href="{{ url_for('chat') }}" class="btn">Let's Fix Things</a>
+        </div>
+    </div>
+</body>
+</html>
